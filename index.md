@@ -3,6 +3,13 @@ layout: lesson
 root: .
 ---
 
+This version of the git-novice lessons was modified from the original
+lessons [found here](http://swcarpentry.github.io/git-novice/) 
+in order to each how to customize a template gh-pages / jekyll
+repository to make a personal webpage.
+
+The story to go with learning git locally is as follows:
+
 Wolfman and Dracula have been hired by Universal Missions (a space
 services spinoff from Euphoric State University) to investigate if it
 is possible to send their next planetary lander to Mars.  They want to
