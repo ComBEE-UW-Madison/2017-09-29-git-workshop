@@ -4,12 +4,8 @@ teaching: 10
 exercises: 0
 questions:
 - "What are GitHub Pages?"
-- "How can I make a personal website with GitHub Pages?"
 objectives:
 - "Walk through the basics of GitHub Pages."
-- "Show the interplay between Jekyll and GH-pages to create your own website."
-keypoints:
-- "The same basics are applied to any template used with Jekyll/GH-pages."
 ---
 
 GitHub Pages is a static site hosting service that hosts your website directly from a GitHub repository in which you edit and push your changes from. You can create and publish GitHub pages online using Jekyll's themes, or work locally through the command line. GitHub pages can be used to host user, organization, or project website. You are allowed one page per user, and unlimited project pages per user/organization. There are several templates which you can fork/clone from directly on Github, and therefore don't have to know a lick of HTML/CSS. This lesson is to show you how you can easily get up and running with virtually any template to launch your personal website with Jekyll/GitHub Pages. 
