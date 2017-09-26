@@ -4,7 +4,7 @@ teaching: 10
 exercises: 0
 questions:
 - "What are GitHub Pages?"
-- "How can I make a personal website with 
+- "How can I make a personal website with GitHub Pages?"
 objectives:
 - "Walk through the basics of GitHub Pages."
 - "Show the interplay between Jekyll and GH-pages to create your own website."
@@ -16,6 +16,32 @@ GitHub Pages is a static site hosting service that hosts your website directly f
 
 [Jekyll](https://jekyllrb.com/) is used to generate your site from plain text to a static website, and [GitHub Pages](https://pages.github.com/) hosts the generated website. There are several [Jekyll Themes](http://jekyllthemes.org/) that you can choose from. For today, we will be working with the [Jekyll Now](http://www.jekyllnow.com/) theme designed by Barry Clark. It's a really quick and easy way to get up and running with a personal website and blog. 
 
-The first element of creating your website from a template is forking the template repository to your own GitHub repository, and giving it a specific name so that GitHub pages knows where to build the repository to. Go to the [Jekyll Now GitHub repository](https://github.com/barryclark/jekyll-now). Fork to your own repository by following these steps: 
+The first element of creating your website from a template is forking the template repository to your own GitHub repository, and giving it a specific name so that GitHub pages knows where to build the repository to. Go to the [Jekyll Now GitHub repository](https://github.com/barryclark/jekyll-now). Get started by following these steps:
 
-[!]../fig/fork.png
+**1. Fork the template GitHub repository to your own repository.** 
+
+![](../fig/fork.png)
+
+**2.  Go to the settings page of your forked repository.**
+
+![](../fig/settings.png)
+
+**3. Change the name of the repository as follows:**
+
+_yourusername.github.io_
+
+The name of this repository _must_ follow this format in order to render correctly. 
+
+**4. Voila! A functional static site at your specific address. Now to personalize it!**
+
+Before we start personalizing the Jekyll Now template, there are two ways you can go about it. You can either work through the command line using Jekyll, or work directly in GitHub Pages. We will show you both approaches, starting with the command line approach to practice the git tools we learned in the first half of the workshop. To do so, `cd` into a directory where you want to work on your website in. This can be your Desktop or any directory of your choosing. To clone the directory, click on the green clone/download button in your website repository: 
+
+![](../fig/clone.png)
+
+Once you are in the directory of your choosing, type in the following command: 
+
+```
+git clone https://github.com/lizilla1993/lizilla1993.github.io.git
+```
+
+Where the third argument is the copied address from your website repository. Now we can edit the Jekyll Now template from the command line and view our changes using Jekyll to build the static site at a temporary server before committing our changes to make the final product. 
