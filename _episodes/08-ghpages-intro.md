@@ -44,4 +44,4 @@ Once you are in the directory of your choosing, type in the following command:
 git clone https://github.com/lizilla1993/lizilla1993.github.io.git
 ```
 
-Where the third argument is the copied address from your website repository. Now we can edit the Jekyll Now template from the command line. Using Jekyll through the command line also has the advantage of viewing your changes before committing them. 
+Where the third argument is the copied address from your website repository. Now we can edit the Jekyll Now template from the command line. Using Jekyll through the command line also has the advantage of viewing your changes before committing them. Let's work on making changes to the Jekyll Now template through the command line.
