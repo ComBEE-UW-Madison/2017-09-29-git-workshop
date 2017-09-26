@@ -55,6 +55,9 @@ complete history of commits for a particular project and their metadata make up
 a [repository]({{ page.root }}/reference/#repository). Repositories can be kept in sync
 across different computers facilitating collaboration among different people.
 
+You can also host webpages in your git repositories.  This uses a builtin 
+operation in Github called ['Github Pages'](https://pages.github.com/). 
+
 > ## The Long History of Version Control Systems
 >
 > Automated version control systems are nothing new.
