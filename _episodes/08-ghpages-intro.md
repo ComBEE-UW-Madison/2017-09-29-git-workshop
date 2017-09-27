@@ -48,4 +48,6 @@ Once you are in the directory of your choosing, type in the following command:
 git clone https://github.com/USERNAME/USERNAME.github.io.git
 ```
 
+
 Where the third argument is the copied address from before or you replace USERNAME with your GitHub username. Now we can edit the Jekyll Now template from the command line. This allows us to build the static site at a temporary server on our computer thus allowing us to play around with the site before committing and pushing our changes to make the final version online. 
+
