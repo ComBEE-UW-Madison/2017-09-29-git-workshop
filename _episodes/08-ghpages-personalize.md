@@ -36,7 +36,17 @@ Once you are satisfied with the changes you have made and viewed with `jekyll se
 
 You can also use your GitHub pages website to make a blog. I currently write a (poorly maintained) blog where I sparsely talk about issues in science or describe a conference I went to. Most Jekyll templates allow for you to create a blog powered by Markdown. This is really great because you are getting started with a website and a blog without having to know HTML/CSS. 
 
+In the `images` directory, you can add .png or .jpg files to then add on any of your pages or blog posts. This is referenced with the following Markdown language: 
+
+```
+![](../images/file.png)
+```
+
+You can also link to an image using a web address. 
+
+To make a new blog post, `cd` into the `_posts` directory. Here you will find an example Markdown file. Open it in a text editor. The top part of the blog post with "layout" and "title" _must_ be present at the beginning of each blog post for it to render correctly. Every webpage template will have different formatting requirements, so make sure to view the example files before creating your own. With Markdown, you can have tables, images, and code blocks in your blog posts if you wish. 
+
 We can also show you how to make changes to your website directly through GitHub. 
 
-We can also take a look at the breadth of available [Jekyll Templates](http://jekyllthemes.org/), and how each one implements the same elements that we have shown throughout this workshop. 
+
 
