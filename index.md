@@ -6,7 +6,8 @@ root: .
 This version of the git-novice lessons was modified from the original
 lessons [found here](http://swcarpentry.github.io/git-novice/) 
 in order to each how to customize a template gh-pages / jekyll
-repository to make a personal webpage.
+repository to make a personal webpage. Some other cool materials
+what include branches are [linked here](https://uw-madison-aci.github.io/20170830-git-novice/).
 
 The story to go with learning git locally is as follows:
 
