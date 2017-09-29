@@ -30,7 +30,13 @@ Since this is most likely a professional website, you will probably want to add 
 
 ![](../fig/ls.png)
 
-You can create new markdown files in a text editor. If you are unfamiliar with Markdown, here is a good [cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). With markdown, you can add links, images, and simple formatting changes such as **bold**, _italices_ and headers. You can take a quick look at the Markdown cheatsheet to see how easy it is to create documents with Markdown. 
+You can create new markdown files in a text editor. If you are unfamiliar with Markdown, here is a good [cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). With markdown, you can add links, images, and simple formatting changes such as **bold**, _italices_ and headers. You can take a quick look at the Markdown cheatsheet to see how easy it is to create documents with Markdown. To add new pages to the main screen, `cd` into `_layouts`. Open the file called `default.html`. On lines 30 and 31, you will see this: 
+
+![](../fig/default-change.png)
+
+I have changed lines 31-34 of my `default.html` file to have a Blog, About, Research, and CV tabs. You can create a new page, or have the tab link to somewhere else, such as one of your GitHub repositories or a file in a GitHub repository. My CV tab links to my CV markdown file in my CV GitHub repository. This is what my `default.html` file looks like now: 
+
+![](../fig/changedef.png)
 
 Once you are satisfied with the changes you have made and viewed with `jekyll serve`, you are ready to add, commit, and push to GitHub using the tools you learned in the first half of the workshop. Once you have pushed to your GitHub repository, it might take some time before your changes appear at **yourusername.github.io.** 
 
